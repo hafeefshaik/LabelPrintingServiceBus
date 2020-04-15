@@ -9,7 +9,7 @@ namespace LabelPrintingTopicReceiver
 {
     class Program
     {
-        const string ServiceBusConnectionString = "Endpoint=sb://qs-poc-service-bus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=3h5yQa5mlt+H+e93pS/zTMA0msMC631rfV/hKjtOUDs=";
+        const string ServiceBusConnectionString = "";
         const string TopicName = "label-printing-topic";
         const string SubscriptionName = "Hafeef";
         static ISubscriptionClient subscriptionClient;
